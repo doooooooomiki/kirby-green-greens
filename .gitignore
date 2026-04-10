@@ -10,6 +10,7 @@ Icon
 media/*
 !media/.gitkeep
 .dev
+hot
 
 # Lock files
 # ---------------
@@ -28,6 +29,7 @@ site/plugins/*
 # Build files
 # ---------------
 
+build
 public/dist
 
 

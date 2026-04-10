@@ -17,8 +17,7 @@
     <?= $page->title() ?> | <?= $site->title() ?>
   </title>
 
-	<?= vite()->js('index.ts') ?>
-	<?= vite()->css('styles/main.css') ?>
+	<?= vite('assets/main.ts') ?>
 
 	<link rel="icon" href="/favicon.svg" />
 </head>
