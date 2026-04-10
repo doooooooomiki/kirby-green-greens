@@ -6,5 +6,5 @@
 ?>
 
 <?php snippet('layout', slots: true) ?>
-<h1><?= $page->title() ?></h1>
+<h1 class="text-3xl font-bold underline"><?= $page->title() ?></h1>
 <?php endsnippet() ?>

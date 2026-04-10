@@ -18,13 +18,14 @@
   </title>
 
 	<?= vite()->js('index.ts') ?>
+	<?= vite()->css('styles/main.css') ?>
 
 	<link rel="icon" href="/favicon.svg" />
 </head>
 
 <body>
 	<header></header>
-	<main id="main" class="grow">
+	<main id="main">
 		<?= $slot ?>
 	</main>
 	<footer></footer>
