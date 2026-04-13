@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "sugarcube:init": "pnpm dlx @sugarcube-sh/cli init --tokens ./assets/tokens --cube ./assets/styles"
+    "sugarcube:init": "pnpm dlx @sugarcube-sh/cli init --tokens ./src/tokens --cube ./src/styles"
   },
   "devDependencies": {
     "@sugarcube-sh/cli": "^0.1.6",

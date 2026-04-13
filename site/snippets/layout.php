@@ -16,8 +16,10 @@
   <title>
     <?= $page->title() ?> | <?= $site->title() ?>
   </title>
+	<link rel="icon" href="/favicon.ico" sizes="32x32">
 
-	<?= vite('assets/main.ts') ?>
+	<?= vite('src/main.ts') ?>
+	<?= js('assets/js/hi.js') ?>
 
 	<link rel="icon" href="/favicon.svg" />
 </head>

@@ -8,5 +8,6 @@
 <?php snippet('layout', slots: true) ?>
 <section class="wrapper">
   <h1><?= $page->title() ?></h1>
+  <p><?= $page->text() ?></p>
 </section>
 <?php endsnippet() ?>

@@ -7,9 +7,12 @@ Icon
 # Temporary files
 # ---------------
 
+public/media/*
+!public/media/.gitkeep
 media/*
 !media/.gitkeep
 .dev
+.tmp
 hot
 
 # Lock files
@@ -30,8 +33,11 @@ site/plugins/*
 # ---------------
 
 build
+public/build
+public/assets/build
+dist
 public/dist
-
+public/assets/dist
 
 # Editors
 # (sensitive workspace files)
@@ -50,17 +56,26 @@ public/dist
 site/cache/*
 !site/cache/.gitkeep
 
+storage/cache/*
+!storage/cache/.gitkeep
+
 # Accounts
 # ---------------
 
 site/accounts/*
 !site/accounts/.gitkeep
 
+storage/accounts/*
+!storage/accounts/.gitkeep
+
 # Sessions
 # ---------------
 
 site/sessions/*
 !site/sessions/.gitkeep
+
+storage/sessions/*
+!storage/sessions/.gitkeep
 
 # License
 # ---------------
