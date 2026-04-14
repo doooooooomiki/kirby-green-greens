@@ -2,6 +2,12 @@
 
 return [
   'debug' => false,
+  'panel' =>[
+    'install' => true,
+    'vue' => [
+      'compiler' => false
+    ]
+  ],
   'cache' => [
     'pages' => [
       'active' => true,
