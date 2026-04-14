@@ -6,5 +6,9 @@ return [
     'pages' => [
       'active' => true,
     ]
-  ]
+  ],
+  'lukaskleinschmidt.laravel-vite' => [
+    'hotFile'        => '.tmp/vite.hot',
+    'buildDirectory' => 'assets/dist',
+  ],
 ];
