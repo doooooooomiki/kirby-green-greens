@@ -1,17 +1,22 @@
 {
-  "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "sugarcube:init": "pnpm dlx @sugarcube-sh/cli init --tokens ./src/tokens --cube ./src/styles"
+    "sugarcube:init": "pnpm dlx @sugarcube-sh/cli init --tokens ./src/tokens --cube ./src/styles",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^8.2.0",
     "@sugarcube-sh/cli": "^0.1.6",
     "@sugarcube-sh/vite": "^0.1.7",
     "@types/node": "^25.5.2",
+    "eslint": "^10.2.0",
+    "eslint-plugin-format": "^2.0.1",
     "laravel-vite-plugin": "^3.0.1",
     "vite": "^8.0.8"
-  },
-  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
+  }
 }

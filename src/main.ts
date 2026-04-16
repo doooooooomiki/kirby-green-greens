@@ -1,7 +1,7 @@
+// @ts-expect-error ts(2882)
+import 'virtual:sugarcube.css'
+// @ts-expect-error ts(2882)
+import './styles/main.css'
 
-// @ts-ignore
-import "virtual:sugarcube.css";
-// @ts-ignore
-import './styles/main.css'; 
-
-console.log('hello kirby');
+// eslint-disable-next-line no-console
+console.log('hello kirby')

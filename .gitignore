@@ -43,7 +43,6 @@ public/assets/dist
 # (sensitive workspace files)
 # ---------------------------
 *.sublime-workspace
-.vscode
 .idea
 
 # -------------SECURITY-------------
