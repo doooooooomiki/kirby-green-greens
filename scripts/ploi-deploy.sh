@@ -12,12 +12,15 @@ composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
 {RELOAD_PHP_FPM}
 
-# Enable Corepack and install pnpm
-corepack prepare pnpm@latest --activate
 
-# Install dependencies and build the project
-corepack pnpm install
-corepack pnpm build
+# Corepack is distributed with Node.js from version 14.19.0 up to (but not including) 25.0.0.
+npx corepack enable
+
+# Download and install the package manager configured in the local project.
+npx corepack install
+
+npx corepack pnpm install --frozen-lockfile
+npx corepack pnpm build
 
 # Clean Kirby cache
 rm -rf storage/cache/{SITE_DOMAIN}
