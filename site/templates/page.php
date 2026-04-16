@@ -8,5 +8,5 @@
 ?>
 
 <?php snippet('layout', slots: true) ?>
-<p>404</p>
+<?= $page->blocks()->toBlocks() ?>
 <?php endsnippet() ?>

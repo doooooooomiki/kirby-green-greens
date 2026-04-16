@@ -8,5 +8,5 @@
 ?>
 
 <?php snippet('layout', slots: true) ?>
-<p>404</p>
+<p>error</p>
 <?php endsnippet() ?>

@@ -1,0 +1,43 @@
+blueprint: page
+
+title:
+  de: Startseite
+  en: Homepage
+
+icon: 🏠
+
+# options:
+# access
+# changeSlug
+# changeStatus
+# changeTemplate
+# changeTitle
+# create
+# delete: false
+# duplicate: false
+# list
+# move: false
+# preview
+# sort
+# update
+
+tabs:
+  content:
+    label:
+      de: Inhalt
+      en: Content
+    icon: draft
+    sections:
+      blocks:
+        type: fields
+        fields:
+          blocks:
+            label:
+              en: Blocks
+              de: Blöcke
+            type: blocks
+            fieldsets:
+              - heading
+              - text
+  # subpages: tabs/subpages
+  # seo: seo/page

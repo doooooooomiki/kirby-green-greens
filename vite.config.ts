@@ -12,7 +12,7 @@ export default defineConfig(() => ({
     manifest: 'manifest.json',
   },
   plugins: [
-    // sugarcube(),
+    sugarcube(),
     laravel({
       input: [resolve(process.cwd(), 'src/main.ts')],
       refresh: ['site/{layouts,snippets,templates}/**/*'],

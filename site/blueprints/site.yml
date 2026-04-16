@@ -1,5 +1,27 @@
-title: Site
+blueprint: site
 
-sections:
+title:
+  de: Seite
+  en: Site
+
+tabs:
   pages:
-    type: pages
+    label: Pages
+    icon: page
+    columns:
+      - width: 2/3
+        sections:
+          pages:
+            label: Pages
+            type: pages
+            info: '/{{ page.slug }}'
+            create:
+              - home
+              - page
+            templates:
+              - home
+              - page
+              - error
+            image: icon
+  # navigation: tabs/navigation
+  # seo: seo/site
