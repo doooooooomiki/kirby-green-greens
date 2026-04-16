@@ -1,6 +1,6 @@
 {
   "yaml.schemas": {
-    "https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json": "file:///Users/dominickirste/__repos/kirby-green-greens/site/blueprints/site.yml"
+    "https://raw.githubusercontent.com/bnomei/kirby-schema/refs/heads/main/kirby5-blueprints.schema.json": "site/blueprints/**/*.yml"
   },
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
@@ -39,6 +39,7 @@
     "json5",
     "jsonc",
     "yaml",
+    "yml",
     "toml",
     "xml",
     "gql",
