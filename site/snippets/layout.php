@@ -25,10 +25,10 @@
 </head>
 
 <body>
-	<header></header>
+	<?php snippet('header') ?>
 	<main id="main">
 		<?= $slot ?>
 	</main>
-	<footer></footer>
+	<?php snippet('footer') ?>
 </body>
 </html>
