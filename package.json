@@ -9,6 +9,9 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
+  "dependencies": {
+    "unlazy": "^1.1.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^8.2.0",
     "@sugarcube-sh/cli": "^0.1.6",

@@ -39,5 +39,6 @@ tabs:
             fieldsets:
               - heading
               - text
+              - image
   # subpages: tabs/subpages
   # seo: seo/page
