@@ -1,0 +1,12 @@
+/*
+OUTLINE OVERLAY UTILITY
+Info: https://jakub.kr/writing/details-that-make-interfaces-feel-better#add-outline-to-images
+Add an outline to elements as visual tweak to create a sense of depth
+*/
+
+.outline-overlay {
+  outline-width: var(--outline-overlay-width, 1px);
+  outline-style: var(--outline-overlay-style, solid);
+  outline-color: var(--outline-overlay-color, currentcolor);
+  outline-offset: var(--outline-overlay-offset, -1px);
+}

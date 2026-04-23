@@ -1,0 +1,31 @@
+{
+  "color": {
+    "$type": "color",
+    "text": {
+      "normal": {
+        "$value": "{color.neutral.900}"
+      },
+      "quiet": {
+        "$value": "{color.neutral.600}"
+      },
+      "quieter": {
+        "$value": "{color.neutral.500}"
+      },
+      "placeholder": {
+        "$value": "{color.neutral.500}"
+      },
+      "link": {
+        "$value": "{color.neutral.950}"
+      }
+    },
+    "transparent": {
+      "$value": "{color.alpha.black.00}"
+    },
+    "white": {
+      "$value": "#FFFFFF"
+    },
+    "black": {
+      "$value": "#000000"
+    }
+  }
+}

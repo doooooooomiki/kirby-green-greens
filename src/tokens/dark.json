@@ -1,0 +1,7 @@
+{
+  "outline": {
+    "overlay": {
+      "color": { "$value": "{color.alpha.white.10}" }
+    }
+  }
+}

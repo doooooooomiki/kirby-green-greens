@@ -1,0 +1,87 @@
+{
+  "size": {
+    "$type": "dimension",
+    "body": {
+      "$value": "{text.base}"
+    },
+    "step": {
+      "-1": {
+        "$value": { "value": 0.875, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 0.875, "unit": "rem" },
+              "max": { "value": 0.875, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "0": {
+        "$value": { "value": 1, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 0.95, "unit": "rem" },
+              "max": { "value": 1, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "1": {
+        "$value": { "value": 1.125, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 1, "unit": "rem" },
+              "max": { "value": 1.125, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "2": {
+        "$value": { "value": 1.25, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 1.125, "unit": "rem" },
+              "max": { "value": 1.25, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "3": {
+        "$value": { "value": 1.5, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 1.25, "unit": "rem" },
+              "max": { "value": 1.5, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "4": {
+        "$value": { "value": 1.875, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 1.5, "unit": "rem" },
+              "max": { "value": 1.875, "unit": "rem" }
+            }
+          }
+        }
+      },
+      "5": {
+        "$value": { "value": 2.25, "unit": "rem" },
+        "$extensions": {
+          "sh.sugarcube": {
+            "fluid": {
+              "min": { "value": 1.75, "unit": "rem" },
+              "max": { "value": 2.25, "unit": "rem" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

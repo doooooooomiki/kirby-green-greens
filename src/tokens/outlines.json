@@ -1,0 +1,10 @@
+{
+  "outline": {
+    "overlay": {
+      "width": { "$type": "dimension", "$value": { "value": 1, "unit": "px" } },
+      "style": { "$type": "strokeStyle", "$value": "solid" },
+      "color": { "$value": "{color.alpha.black.10}" },
+      "offset": { "$type": "dimension", "$value": { "value": -1, "unit": "px" } }
+    }
+  }
+}
